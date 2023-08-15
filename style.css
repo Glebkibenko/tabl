@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    margin: 30px;
+    width: 380px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: rgb(190, 209, 243);
+}
+
+.card::before{
+    content: "CREDIT CARD DETAILS";
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    color: aliceblue;
+    margin-left: -20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 300px;
+    padding:3px 0 0 20px
+}
+input{
+    height: 20px;
+    background-color:  rgb(218, 227, 243);
+    border: none;
+    color:darkgrey;
+    margin-left: 20px;
+}
+h6{margin: 7px 0 5px 20px;}
+#idate{
+    width: 55px;
+}
+#year{width: 55px;}
+#cvv{width: 55px;
+}
+label{
+    display:block;
+    margin-left: 20px;
+}
+.box{display: flex;
+justify-content: space-between;
+width: 227px;
+margin: 5px 0 5px 0;}
+#number{width: 213px;}
+#name{width: 213px;}
+/* .box2{
+    width: 600px;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.196);
+padding: 20px;
+margin: 20px;
+}
+#item1{
+    background-color: white;
+    margin: 2px;
+}
+#item2:valid{
+border-color: green;
+background-color: white;
+margin: 2px;
+}
+#item2:valid::after{
+    content: "\2714";
+    display: inline-block;
+    color: green;
+}
+.box3{ display: flex;}
+#item3:invalid{
+    background-color: white;
+    margin: 2px;
+border-color: brown;
+}
+#item3:invalid::after{
+    content: "\2718";
+    display: inline-block;
+    color: brown;
+} */
